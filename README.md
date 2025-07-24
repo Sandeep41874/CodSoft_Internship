@@ -1,6 +1,3 @@
-# CodSoft_Internship
-CodSoft Internship Tasks
-
 # CodSoft Internship Tasks
 
 This repository contains the tasks completed during my internship at **CodSoft**. The projects are built using HTML, CSS, and JavaScript.
