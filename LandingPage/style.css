@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container p{
+    margin: 21px;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  height: 75px;
+}
+
+header .logo {
+  float: left;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+header nav {
+  float: right;
+  margin-right: 20px;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('images/bg.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: #ff6600;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.features {
+  background: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.feature-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  background: #eaeaea;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.about, .contact {
+  padding: 60px 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
